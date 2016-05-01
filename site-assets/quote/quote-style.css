@@ -1,0 +1,81 @@
+
+.quote-left {
+  text-align: center;
+  padding: 0;
+  background-color: #E62B6F;
+  height: inherit;
+  color: #fff;
+}
+
+.quote-left .name {
+  text-transform: uppercase;
+  position: absolute;
+  top:55%;
+  left: 50%;
+  transform: translate(-50%,-55%);
+  font-size: 13px;
+  font-style: 600;
+
+}
+
+.quote-left .title {
+  text-transform: uppercase;
+  position: absolute;
+  top:65%;
+  left: 50%;
+  transform: translate(-50%,-65%);
+  font-size: 13px;
+  font-style: 600;
+}
+
+.quote-left .quote {
+  position: absolute;
+  top:20%;
+  left: 50%;
+  transform: translate(-50%,-20%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.quote-left .btn {
+  position: absolute;
+  top:80%;
+  left: 50%;
+  transform: translate(-50%,-80%);
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #E62B6F;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2pt;
+  text-transform: uppercase;
+}
+
+.quote-left .btn:hover {
+  position: absolute;
+  top:80%;
+  left: 50%;
+  transform: translate(-50%,-80%);
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #fff;
+  color: #E62B6F;
+  border: 1px solid #E62B6F;
+  border-radius: 2pt;
+  text-transform: uppercase;
+}
+
+.white-line {
+	background-color: #fff;
+	min-height: 3px;
+	min-width: 10%;
+	position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-40%);
+}
+.quote-right img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
