@@ -413,56 +413,79 @@ if(isset($_POST['submit'])){
       <div class="headline-contact"><span id="bold">contact</span> <span id="contact-light"> us</span></div>
       <form class="form-horizontal" role="form" method="post" action="index.php" id="form">
         <div class="container-fluid">
-          <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-            <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="name-label"><span class="purple">*</span>Name</label>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" class="form-control area" id="name" name="name" placeholder="" value="" required>
+              <label for="name" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="name-label"><span class="purple">*</span>Name</label>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" class="form-control area" id="name" name="name" placeholder="" value="" required>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <label for="phone" class="control-label col-lg-12 col-md-12 col-sm-12 col-xs-12" id="phone-label">Phone Number</label>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" class="form-control area" id="phone" name="phone" placeholder="" value="" required>
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <label for="email" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="email-label"><span class="purple">*</span>Email Address</label>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="email" class="form-control area" id="email" name="email" placeholder="" value="" required>
+              </div>
+            </div>
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <label for="company" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="company-label">Company</label>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" class="form-control area" id="company" name="company" placeholder="" value="">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <label for="company" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="company-label">Your site</label>
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <input type="text" class="form-control area" id="site" name="site" placeholder="" value="">
+              </div>
             </div>
           </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="right-contact">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <label for="budget" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="budget-label">Your Budget</label>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <input  name="budget" id="ex8" data-slider-id='ex1Slider' tooltip-position="bottom" type="text" data-slider-min="500" data-slider-max="5000" data-slider-step="100" data-slider-value="2500"/>
+                </div>
+              </div>
+              
+              <div class="check col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <input type="checkbox" name="Web-Design" value="Web-Design"> <span>Web Design</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <input type="checkbox" name="Web-Development" value="Web-Development"> <span>Web Development</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <input type="checkbox" name="seo" value="seo"> <span>SEO</span>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <input type="checkbox" name="social-media-marketing" value="social-media-marketing"> <span>Social Media Marketing</span>
+                </div>
+              </div>
 
-          <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-            <label for="phone" class="control-label col-lg-12 col-md-12 col-sm-12 col-xs-12" id="phone-label">Phone Number</label>
+              <div class="col-lg-12  col-md-12  col-sm-12 col-xs-12">
+                <label for="message" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="message-label">Tell us what you need</label>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <textarea class="form-control area" rows="4" name="message" required ></textarea>
+                </div>
+              </div>
+
+
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" class="form-control area" id="phone" name="phone" placeholder="" value="" required>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-            <label for="email" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="email-label"><span class="purple">*</span>Email Address</label>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="email" class="form-control area" id="email" name="email" placeholder="" value="" required>
-            </div>
-          </div>
-
-
-          <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
-            <label for="company" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="company-label">Company</label>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input type="text" class="form-control area" id="company" name="company" placeholder="" value="">
+              <input id="submit" name="submit" type="submit" value="send" class="btn btn-primary  submit">
             </div>
           </div>
         </div>
-
-        <div class="container-fluid">
-          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-            <label for="budget" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="budget-label">Your Budget</label>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <input  name="budget" id="ex8" data-slider-id='ex1Slider' tooltip-position="bottom" type="text" data-slider-min="500" data-slider-max="5000" data-slider-step="100" data-slider-value="2500"/>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-            <label for="message" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 control-label" id="message-label">Tell us what you need</label>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <textarea class="form-control area" rows="4" name="message" required ></textarea>
-            </div>
-          </div>
-       </div>
-        
-        <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-          <input id="submit" name="submit" type="submit" value="send" class="btn btn-primary  submit">
-        </div>
-        <div class="col-sm-10 col-sm-offset-2">
         </div>
       </form>
     </div>

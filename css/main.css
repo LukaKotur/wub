@@ -170,8 +170,32 @@ a {
 }
 
 #contact label {
-  margin-top: 8%;
+  margin-top: 1%;
   margin-bottom: 2%;
+}
+
+#contact span {
+  padding-left:2px;
+  padding-right: 2px;
+  margin: auto;
+}
+
+#right-contact input {
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+
+#form {
+  margin-top:2%;
+  margin-bottom: 5%;
+}
+
+.check {
+  text-align: left;
+  margin: 4.5% 3%;
+  color: #fff;
+  padding: 5px;
 }
 
 .slider .tooltip-inner {
@@ -1618,11 +1642,7 @@ textarea {
     margin-top: 5vh;
   }
 
-  #submit {
-    width: 100%;
-    margin-left: 0px;
-  }
-
+ 
   .analytics-text h1 {
     font-size: 21px;
   }
@@ -1775,11 +1795,6 @@ textarea {
 
     #about-us-right {
       padding-left: 15px;
-    }
-
-    #submit {
-      width: 100%;
-      margin-left: 0px;
     }
 
 }
