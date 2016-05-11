@@ -1,7 +1,7 @@
 <style type="text/css">
-	.quote-right {
+	.quote-right-3{
 	  padding: 0;
-	  background: url('images/quote-slider/cfj-banner.png');
+	  background: url('images/testimonials/cfj.png');
 	  background-size: cover;
 	  background-position: center;
 	  height: inherit;
@@ -23,6 +23,6 @@
 	</p>
 	<div class="lightbox-cfj btn btn-primary">Learn more</div>
 </div>
-<div class="quote-right col-lg-6 col-md-6 col-sm-6 hidden-xs">
+<div class="quote-right-3 col-lg-6 col-md-6 col-sm-6 hidden-xs">
 	
 </div>

@@ -80,7 +80,7 @@ if(isset($_POST['submit'])){
       </div>
       <div class="item">
         <!-- Set the second background image using inline CSS below. -->
-        <div class="fill" style="background-image:url('images/banner-2.png'); width:100%; height:100%"></div>
+        <div class="fill" style="background-image:url('images/banner-2.jpg'); width:100%; height:100%"></div>
         <div class="carousel-caption">
           <div class="second-slide">
             <h2 class="hidden-lg carousel-headline">SEO</h2>

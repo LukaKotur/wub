@@ -1295,7 +1295,8 @@ textarea {
 
 .box-info-text-tags {
   text-align: right;
-  margin-top: 5vh;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 #hash {
@@ -1456,7 +1457,7 @@ textarea {
   max-width: 1250px;
   max-height: 90vh;
   margin: 20px auto;
-  padding: 10px 10%;
+  padding: 30px 10%;
   background: #E8E8E8;
   overflow-y: auto;
   font-weight: 500;
@@ -1479,15 +1480,13 @@ textarea {
   font-weight: 500;
 }
 
-.lb-client {
-  font-size: 22px;
+.lb-pink {
   font-weight: 800;
 }
 
 .lb-client a {
-  font-size: 32px;
-  font-weight: 800;
   text-decoration: underline !important;
+  font-weight: 800;
 }
 
 
@@ -1500,16 +1499,15 @@ textarea {
 
 .lb-project-info {
   text-align: justify;
-  font-style: italic;
 }
 
 .lb-project-goals {
   text-align: justify;
-  font-style: italic;
 }
 
 .lb-link {
-  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* END lightbox */
